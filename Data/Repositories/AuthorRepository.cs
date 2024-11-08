@@ -80,12 +80,12 @@ namespace WebApiAuthor.Data.Repositories
                         while (dr.Read())
                         {
                             authorEntity.Id = Convert.ToInt32(dr["id"]);
-                            authorEntity.Names =  (string)dr["names_"];
-                            authorEntity.FirstName = (string)dr["first_surname"];
-                            authorEntity.SecondSurname = (string)dr["second_surname"];
+                            authorEntity.Names =  dr["names_"].ToString();
+                            authorEntity.FirstName = dr["first_surname"].ToString();
+                            authorEntity.SecondSurname = dr["second_surname"].ToString();
                             authorEntity.BirthDate = (DateTime)dr["birth_date"];
-                            authorEntity.CountryResidence = (string)dr["country_residence"];
-                            authorEntity.Mail = (string)dr["mail"];
+                            authorEntity.CountryResidence = dr["country_residence"].ToString();
+                            authorEntity.Mail = dr["mail"].ToString();
                         }
                     }
                     return authorEntity;
@@ -99,6 +99,71 @@ namespace WebApiAuthor.Data.Repositories
         }
 
 
+        public static List<AuthorEntity> getAuthorList() { 
+
+            List<AuthorEntity> authorList = new List<AuthorEntity>();
+            using (SqlConnection connection =  new SqlConnection(Conexion.dataSource))
+            {
+                SqlCommand cmd = new SqlCommand("sp_list_author", connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                try
+                {
+                    connection.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read()) {
+                            authorList.Add(new AuthorEntity()
+                            {
+                                Id = Convert.ToInt32(dr["id"]),
+                                Names = dr["names_"].ToString(),
+                                FirstName = dr["first_surname"].ToString(),
+                                SecondSurname = dr["second_surname"].ToString(),
+                                BirthDate = dr["birth_date"] != DBNull.Value ? (DateTime)dr["birth_date"] : DateTime.MinValue,
+                                CountryResidence = dr["country_residence"].ToString(),
+                                Mail = dr["mail"].ToString()
+                            });                      
+                            
+                        }
+
+                    }
+                    return authorList;
+
+                } 
+                catch (Exception ex)
+                {
+
+                    return authorList;
+                }
+
+
+            }
+
+
+        }
+
+        public static bool delete(int id)
+        {
+            using (SqlConnection connection = new SqlConnection(Conexion.dataSource))
+            {
+                SqlCommand cmd = new SqlCommand("sp_delete_author", connection); 
+                cmd.CommandType= CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("id", id);
+
+                try
+                {
+                    connection.Open();
+                    cmd.ExecuteNonQuery();
+                    return true;
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+
+            }
+
+        }
 
 
     }
