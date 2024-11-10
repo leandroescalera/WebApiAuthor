@@ -42,7 +42,7 @@ namespace WebApiAuthor.Data.Repositories
             {
                 SqlCommand cmd = new SqlCommand("sp_update_author", connection);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@@id", authorEntity.Id);
+                cmd.Parameters.AddWithValue("@id", authorEntity.Id);
                 cmd.Parameters.AddWithValue("@names_", authorEntity.Names);
                 cmd.Parameters.AddWithValue("@first_surname", authorEntity.FirstName);
                 cmd.Parameters.AddWithValue("@second_surname", authorEntity.SecondSurname);
@@ -148,7 +148,7 @@ namespace WebApiAuthor.Data.Repositories
             {
                 SqlCommand cmd = new SqlCommand("sp_delete_author", connection); 
                 cmd.CommandType= CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("id", id);
+                cmd.Parameters.AddWithValue("@id", id);
 
                 try
                 {
