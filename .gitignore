@@ -69,3 +69,18 @@ App_Data/aspnet/
 *.bak.*
 *\Backup
 *.bak
+
+# Ignorar archivos de compilación y binarios generados automáticamente
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
