@@ -1,6 +1,71 @@
-.vs/WebApiAuthor/FileContentIndex/4aa20384-5307-4cf8-8dd3-ebca835cccd9.vsidx
-.vs/WebApiAuthor/FileContentIndex/e2bc035a-042d-483f-9445-f172736fc0c9.vsidx
-.vs/WebApiAuthor/FileContentIndex/3ccd3c8a-2850-49da-9f2b-f67843ba30c1.vsidx
-.vs/WebApiAuthor/FileContentIndex/9c09c354-6573-4eb0-9c4a-03b5630e59be.vsidx
-.vs/WebApiAuthor/FileContentIndex/c1bb92af-4623-4fe0-9c66-57b7cb481fb2.vsidx
-.vs/WebApiAuthor/FileContentIndex/1f6f285f-1d95-46b5-a0e1-ebc769df33b2.vsidx
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos generados por Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación de .NET y binarios
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Configuración de compilación de Visual Studio
+*.builds
+*.vcxproj*
+*.h
+*.cpp
+*.filters
+*.user
+*.ruleset
+*.props
+*.targets
+*.userprefs
+
+# Paquetes de NuGet
+packages/
+!packages/repositories.config
+
+# Archivos de publicación y despliegue
+.publish/
+publish/
+*.Publish.xml
+*.swf
+*.pfx
+*.cer
+
+# Configuración de IIS y otros entornos locales
+.vs/
+.idea/
+_ReSharper*
+\*\bin\Release\
+\*\bin\Debug\
+# Excluye la configuración de IIS Express
+App_Data/aspnet/
+*.vspscc
+*.vssscc
+*\app.publish
+
+# Archivos de configuración de usuario y de depuración local
+*.orig
+*.bak
+*.swp
+*.bak.*
+*\Backup
+*.bak
