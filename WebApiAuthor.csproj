@@ -113,10 +113,12 @@
     <Compile Include="Controllers\AuthorController.cs" />
     <Compile Include="Data\Conexion.cs" />
     <Compile Include="Data\Repositories\AuthorRepository.cs" />
+    <Compile Include="Data\Repositories\BlogRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\AuthorEntity.cs" />
+    <Compile Include="Models\Entities\BlogEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

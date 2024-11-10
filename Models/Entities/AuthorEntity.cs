@@ -14,7 +14,5 @@ namespace WebApiAuthor.Models
         public DateTime BirthDate{ get; set; }
         public string CountryResidence { get; set; }
         public string Mail { get; set; }
-
-
     }
 }
