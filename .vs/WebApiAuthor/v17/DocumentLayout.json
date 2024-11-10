@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\GitRepository\\WebApiAuthor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +23,11 @@
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:models\\entities\\authorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|d:\\gitrepository\\webapiauthor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|D:\\GitRepository\\WebApiAuthor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E62D355D-6A3C-421F-B3F4-A9C76BBD848B}|WebApiAuthor.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Data\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T04:28:43.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T04:28:43.833Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-08T04:21:32.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T04:21:32.783Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "App_Start\\WebApiConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:57:05.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:57:05.609Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Models\\Entities\\AuthorEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:27:11.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:27:11.237Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Controllers\\AuthorController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:22:32.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:22:32.851Z"
             },
             {
               "$type": "Document",
@@ -126,7 +121,7 @@
               "RelativeDocumentMoniker": "Data\\Repositories\\AuthorRepository.cs",
               "ToolTip": "D:\\GitRepository\\WebApiAuthor\\Data\\Repositories\\AuthorRepository.cs",
               "RelativeToolTip": "Data\\Repositories\\AuthorRepository.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAqwHwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwHwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:02:28.088Z",
               "EditorCaption": ""
