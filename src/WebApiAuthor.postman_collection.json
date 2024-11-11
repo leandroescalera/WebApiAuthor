@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "9337b9e6-4414-4afb-b6de-8a7889c21fdf",
+		"name": "WebApiAuthor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4705086",
+		"_collection_link": "https://cloudy-crescent-823972.postman.co/workspace/ULTRA~f65be959-2885-4c4e-bac2-d1ce20bbbb10/collection/4705086-9337b9e6-4414-4afb-b6de-8a7889c21fdf?action=share&source=collection_link&creator=4705086"
+	},
+	"item": [
+		{
+			"name": "Autor",
+			"item": [
+				{
+					"name": "Lista de autores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44381/api/authors",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Autor",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Names\": \"Leandro Marcelo\",\r\n    \"FirstName\": \"Escalera\",\r\n    \"SecondSurname\": \"Alconini\",\r\n    \"BirthDate\": \"08/10/1991\",\r\n    \"CountryResidence\": \"Bolivia\",\r\n    \"Mail\": \"leandro.escalera@bancofie.com.bo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/authors/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"authors",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registrar Autor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Names\": \"Juan Alberto\",\r\n    \"FirstName\": \"Laguna\",\r\n    \"SecondSurname\": \"Arzueta\",\r\n    \"BirthDate\": \"1985-12-08T00:00:00\",\r\n    \"CountryResidence\": \"Argentina\",\r\n    \"Mail\": \"rolando.laguna@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/authors",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar autor",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\": 2,\r\n    \"Names\": \"Victor Hugo\",\r\n    \"FirstName\": \"Anaya\",\r\n    \"SecondSurname\": \"Quisbert\",\r\n    \"BirthDate\": \"1993-06-20T00:00:00\",\r\n    \"CountryResidence\": \"Paraguay\",\r\n    \"Mail\": \"virtor.anaya@bancofie.com.bo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/authors",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\": 2,\r\n    \"Names\": \"Victor Hugo\",\r\n    \"FirstName\": \"Anaya\",\r\n    \"SecondSurname\": \"Quisbert\",\r\n    \"BirthDate\": \"1993-06-20T00:00:00\",\r\n    \"CountryResidence\": \"Paraguay\",\r\n    \"Mail\": \"virtor.anaya@bancofie.com.bo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/authors/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"authors",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Blog",
+			"item": [
+				{
+					"name": "List Blog",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44381/api/blogs",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"blogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Blog",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44381/api/blogs/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"blogs",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registrar blog",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"BLOG PARA BORRAR\",\r\n    \"thema\": \"Cómo superar el miedo al éxito\",\r\n    \"content\": \"Este es el contenido completo del blog. Puede contener cualquier tipo de carácter, incluso saltos de línea, signos de puntuación y más.\",\r\n    \"periodicity\": \"MENSUAL\",\r\n    \"allowComments\": true,\r\n    \"creationDate\": \"1991-10-08T00:00:00\",\r\n    \"updatedDate\": \"2024-11-10T12:58:24.534487-04:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/blog",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"blog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar blog",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 3,\r\n    \"title\": \"SE ACTUALIZO EL REGISTRO DEL BLOG.\",\r\n    \"thema\": \"Cómo superar el miedo al éxito\",\r\n    \"content\": \"Este es el contenido completo del blog. Puede contener cualquier tipo de carácter, incluso saltos de línea, signos de puntuación y más.\",\r\n    \"periodicity\": \"MENSUAL\",\r\n    \"allowComments\": true,\r\n    \"creationDate\": \"1991-10-08T00:00:00\",\r\n    \"updatedDate\": \"2024-11-10T13:03:06.7774356-04:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44381/api/blog",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"blog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Blog",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44381/api/blog/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44381",
+							"path": [
+								"api",
+								"blog",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

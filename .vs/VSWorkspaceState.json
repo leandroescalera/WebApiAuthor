@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App_Start",
+    "\\Data",
+    "\\Data\\Repositories",
+    "\\Models",
+    "\\Models\\Entities",
+    "\\Properties"
+  ],
+  "SelectedNode": "\\Data\\Repositories\\AuthorRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
